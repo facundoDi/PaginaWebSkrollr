@@ -8,15 +8,15 @@ font-family: 'Bebas Neue', cursive;font-family: 'Bebas Neue', cursive;
     padding:0;
     margin:0;
     -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
 }
 
 
 
 h2 {
     font-size:3rem;
-	padding:1rem;
+	   padding:1rem;
 
 
 
@@ -27,15 +27,15 @@ h3{
     font-family: 'Lato', sans-serif;
 }
 
-.info{
+.Cameras{
 
 	background: cover;
 	color: aliceblue;
-    padding:2rem;
-	 background: url(Imag/01-wp-uno.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
+  padding:2rem;
+	background: url(img/fondo1.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -67,12 +67,13 @@ navbar-expand-md .navbar-nav .nav-lin{
 
 }
 
-.botonn{
+.Accessories{
 	padding: 3rem;
-	background:url(Imag/02-wp-dos.jpg) no-repeat fixed;
+	background:url(img/fondo2.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     background-size: cover;
 	padding-top:1rem;
+  color: beige;
 
 }
 
@@ -100,34 +101,39 @@ navbar-expand-md .navbar-nav .nav-lin{
         transition:.3s ease-in;
     }
 
-.panta{
+.Apps{
 	padding:2rem;
 	padding-top: 2rem;
-	background:url(Imag/03-wp-tres.jpg) no-repeat fixed;
+	background:url(img/fondo3.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     background-size: cover;
     color: beige;
 
 }
-.videe{
-padding:1rem;
-     font-family: 'Bebas Neue', cursive;
-	background:url(Imag/04-wp-tres%20-%20copia.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+.Gopro-Plus{
+  padding:1rem;
+  font-family: 'Bebas Neue', cursive;
+	background:url(img/fondo4.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: beige;
 
 }
 
-.contac{
+.contacto{
+  padding:1rem;
+	background:url(img/fondo5.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: beige;
 
-    background-color: aqua;
-	padding-top: 3rem;
-	padding:2rem;
-	background:url(Imag/04-wp-cuatro.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+
 
 }
+
+
+
+
 
 .empresa{
 	color: aliceblue;
