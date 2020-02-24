@@ -13,35 +13,9 @@ font-family: 'Bebas Neue', cursive;font-family: 'Bebas Neue', cursive;
 }
 
 
-
-h2 {
-    font-size:3rem;
-	   padding:1rem;
-
-
-
-}
-
-h3{
-    padding-top:2rem;
-    font-family: 'Lato', sans-serif;
-}
-
-.Cameras{
-
-	background: cover;
-	color: aliceblue;
-  padding:2rem;
-	background: url(img/fondo1.jpg) no-repeat fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
-}
-
-
 .navbar{
-    	background-color: rgba(29, 37, 35, 0.75);    /* Color: #1D2523 */
-
+  background-color: rgba(29, 37, 35, 0.75);    /* Color: #1D2523 */
+  padding: .5rem 2rem;
 }
 
 .navbar a{
@@ -53,12 +27,10 @@ h3{
 }
 
 .navbar img{
-  max-width: 15%;
+  max-width: 50%;
   height: auto;
   vertical-align: middle;
 }
-
-
 
 
 navbar-expand-md .navbar-nav .nav-lin{
@@ -67,11 +39,39 @@ navbar-expand-md .navbar-nav .nav-lin{
 
 }
 
+
+.Cameras{
+	background: cover;
+	color: aliceblue;
+  padding:2rem;
+	background: url(img/fondo1.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Mercado{
+	padding: 3rem;
+	background:url(img/fondo4.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+	padding-top:1rem;
+  color: beige;
+
+}
+
+.Mercado button.btn.fondoBlanco{
+  color: white;
+  border-color: white;
+
+}
+
+
 .Accessories{
 	padding: 3rem;
 	background:url(img/fondo2.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 	padding-top:1rem;
   color: beige;
 
@@ -89,27 +89,28 @@ navbar-expand-md .navbar-nav .nav-lin{
         -webkit-transition:.3s ease-out;
         -o-transition:.3s ease-out;
         transition:.3s ease-out;
-    }
+}
 
-    .boton img:hover{
-        -webkit-transform:scale(1);
-        -ms-transform:scale(1);
-        -o-transform:scale(1);
-        transform:scale(1);
-        -webkit-transition:.3s ease-in;
-        -o-transition:.3s ease-in;
-        transition:.3s ease-in;
-    }
+.boton img:hover{
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:.3s ease-in;
+    -o-transition:.3s ease-in;
+    transition:.3s ease-in;
+}
 
 .Apps{
 	padding:2rem;
 	padding-top: 2rem;
 	background:url(img/fondo3.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: beige;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: beige;
 
 }
+
 .Gopro-Plus{
   padding:1rem;
   font-family: 'Bebas Neue', cursive;
@@ -127,11 +128,7 @@ navbar-expand-md .navbar-nav .nav-lin{
   background-size: cover;
   color: beige;
 
-
-
 }
-
-
 
 
 
@@ -139,32 +136,48 @@ navbar-expand-md .navbar-nav .nav-lin{
 	color: aliceblue;
 
 }
+
 .huerta{
 	color: #0ade33;
 }
+
 .foo{
 	background-color: #95C11F;
 	padding:2rem;
-
 }
+
+
+/* Esto es para las resoluciones grandes */
 .social{
-        font-size:2.2rem;
-    }
-    .fa-facebook{
-        color: rgba(31, 74, 216, 0.8);
-    }
-    .fa-youtube{
-        color: #fd0a0a;
-    }
-    .fa-twitter{
-        color: #00ffff;
-    }
-    .fa-instagram{
-        color: #e2f500;
-    }
-    .fa-linkedin{
-        color: #007af0;
-    }
+    font-size:2.2rem;
+}
+.fa-facebook{
+    color: rgba(31, 74, 216, 0.8);
+}
+.fa-youtube{
+    color: #fd0a0a;
+}
+.fa-twitter{
+    color: #00ffff;
+}
+.fa-instagram{
+    color: #e2f500;
+}
+.fa-linkedin{
+    color: #007af0;
+}
+
+h2 {
+    font-size:3rem;
+	  padding:1rem;
+}
+
+h3{
+    padding-top:2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Esto es para las resoluciones con ancho menor a 768px */
 @media(min-width:768px){
     .social{
         font-size:1.2rem;
@@ -185,18 +198,19 @@ navbar-expand-md .navbar-nav .nav-lin{
         color: dodgerblue;
     }
 
-h2 {
-    font-size:2rem;
 
+    h2 {
+        font-size:2rem;
+    }
 
+    h3{
+        padding-top:1rem;
+    }
 }
 
-h3{
-    padding-top:1rem;
-
-}
+/* Esto es para las resoluciones con ancho minimo 1200px */
 @media(min-width:1200px){
-    social{
+    .social{
         font-size:1.2rem;
     }
     .fa-facebook{
@@ -215,29 +229,24 @@ h3{
         color: dodgerblue;
     }
 
-h2 {
-    font-size:2rem;
-
-
+    h2 {
+        font-size:2rem;
+    }
+    h3{
+        padding-top:1rem;
+    }
 }
 
-h3{
-    padding-top:1rem;
-}
-
+/* Esto es para las resoluciones con ancho minimo 500px */
 @media(min-width:500px){
-
     .contacto{
         padding:1rem;
         margin:1rem;
     }
-
-h2 {
-    font-size:3rem;
-
-
-}
-
-h3{
-    padding-top:2rem;
+    h2 {
+        font-size:3rem;
+    }
+    h3{
+        padding-top:2rem;
+    }
 }
