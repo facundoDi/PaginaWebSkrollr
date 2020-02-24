@@ -63,6 +63,10 @@ navbar-expand-md .navbar-nav .nav-lin{
 .Mercado button.btn.fondoBlanco{
   color: white;
   border-color: white;
+}
+
+.Mercado button.btn.fondoBlanco:hover{
+  background-color: rgba(29, 37, 35, 0.75);
 
 }
 

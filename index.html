@@ -7,6 +7,7 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="img/camara3.png">
 
+	<link rel="stylesheet" href="js\myfunctions.js">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="js/bootstrap.min.js">
 	<!-- Link to your css file -->
@@ -14,6 +15,7 @@
 	<link rel="stylesheet" href="js/skrollr.js">
 	<link rel="stylesheet" href="js/skrollr.min.js">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+
 
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
 
@@ -45,7 +47,7 @@
 
                     <div class="container justify-content-end" style="max-width: 75%;">
 
-												<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+												<button class="navbar-toggler" onclick="modificarEstadoNavbar()" type="button" > <!--data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
 														<span class="navbar-toggler-icon"></span>
 												</button>
 
@@ -205,7 +207,7 @@
 			<div class="container" data-0="opacity:0; transition:.5s ease-in;left:-25%;"
                    data-142="opacity:1;transition:.2s ease-out;left:0;">
 				<div class="row">
-					<div class="col-12 col-lg-6">
+					<div class="col-12 col-lg-6" style="max-width: 50%;">
 						<h3 data-0="left: 0px"
             data-100="left: 500px"
             data-300="left: -1000px" class="text-left text-black py-2 ">Cameras</h3>
@@ -213,10 +215,12 @@
 						<p  data-center-bottom="transform: scale(1);" data-43-top="transform: scale(1);" data-top="transform: scale(0);" class="text-left .text-white py-2">
 							Es para crear, en distintos espacios verdes huertos, con ayuda y consejos sobre las distintas plantas para su consumo o como un hobbies. Como plantarla en distintos lugares como casas o edificios.</p>
 					</div>
-					<div class="col-12 col-lg-6 " data-0="opacity:0; transition:.3s ease-all;right:-100%;"
+
+					<div class="col-12 col-lg-6 " style="max-width: 50%;" data-0="opacity:0; transition:.3s ease-all;right:-100%;"
                    data-384="opacity:1;transition:.2s ease-in;right:0;">
 						<img src="img\camara6.png" class="img-fluid" alt="tirada">
 					</div>
+
 				</div>
 			</div>
 		</section>
@@ -230,7 +234,7 @@
 			<div class="col-12">
 				<h2  data-0="left: 0px"
 					data-100="left: 600px"
-					data-300="left: -2000px"class="funciones text-center pt-5 pb-4"data-top="opacity:0;top:-100%;" data-center="opacity:1;top:0%;">Accessories </h2>
+					data-300="left: -2000px"class="funciones text-center pt-5 pb-4"data-top="opacity:0;top:-100%;" data-center="opacity:1;top:0%;"> Best-Selling Cameras </h2>
 			</div>
 
 
@@ -240,27 +244,27 @@
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b4.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara2.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b4"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b4"> Ver Info</button>
 					</div>
 				</div>
 
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b5.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara6.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b5"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b5"> Ver Info</button>
 					</div>
 				</div>
 
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b6.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara4.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b6"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b6"> Ver Info</button>
 					</div>
 				</div>
 			</div>
@@ -270,9 +274,9 @@
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b1.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara5.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b1"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b1"> Ver Info</button>
 					</div>
 				</div>
 
@@ -280,18 +284,18 @@
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b2.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara1.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b2"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b2"> Ver Info</button>
 					</div>
 				</div>
 
 				<div class="boton col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center""col-md-4"
                    data-100="opacity:0;bottom:-960px;"
                   data-bottom="opacity:1;bottom:0px;">
-					<img src="Imag/b3.png" alt="botonera" class="img-fluid" class="rounded-sm">
+					<img src="img/camara3.png" alt="botonera" class="img-fluid" class="rounded-sm">
 					<div class="text-center">
-						<button class="btn fondoBlanco" data-toggle="modal" data-target="#b3"> Ver Info</button>
+						<button class="btn btn-outline-success fondoBlanco" data-toggle="modal" data-target="#b3"> Ver Info</button>
 					</div>
 				</div>
 
@@ -816,6 +820,7 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/all.min.js"></script>
 	<script src="js/skrollr.js"></script>
+	<script src="js/myfunctions.js"></script>
 
 	 <script>
         var plugin = skrollr.init({
