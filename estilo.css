@@ -82,9 +82,6 @@ navbar-expand-md .navbar-nav .nav-lin{
 }
 
 
-
-
-
 .boton img{
         -webkit-transform:scale(0.9);
         -ms-transform:scale(0.9);
@@ -152,6 +149,13 @@ navbar-expand-md .navbar-nav .nav-lin{
 
 
 /* Esto es para las resoluciones grandes */
+.container.logo{
+  max-width: 25%;
+}
+.container.menu{
+  max-width: 75%;
+}
+
 .social{
     font-size:2.2rem;
 }
@@ -181,38 +185,19 @@ h3{
     font-family: 'Lato', sans-serif;
 }
 
-/* Esto es para las resoluciones con ancho menor a 768px */
-@media(min-width:768px){
-    .social{
-        font-size:1.2rem;
+/* Esto es para las resoluciones con ancho minimo 1200px - Pantallas chicas */
+@media(max-width:1200px){
+    .container-fluid.fixed-top{
+        position: fixed;
     }
-    .fa-facebook{
-        color: rgba(31, 74, 216, 0.8);
+    .container.logo{
+      max-width: 25%;
     }
-    .fa-youtube{
-        color: #cb1818;
-    }
-    .fa-twitter{
-        color: #1ec7c7;
-    }
-    .fa-instagram{
-        color: blueviolet;
-    }
-    .fa-linkedin{
-        color: dodgerblue;
+    .container.menu{
+      max-width: 75%;
     }
 
-
-    h2 {
-        font-size:2rem;
-    }
-
-    h3{
-        padding-top:1rem;
-    }
 }
-
-/* Esto es para las resoluciones con ancho minimo 1200px */
 @media(min-width:1200px){
     .social{
         font-size:1.2rem;
@@ -241,8 +226,92 @@ h3{
     }
 }
 
-/* Esto es para las resoluciones con ancho minimo 500px */
+/* Esto es para las resoluciones con ancho menor a 768px - iPad*/
+@media(max-width:800px){
+    .container-fluid.fixed-top{
+        position: fixed;
+    }
+    .container.logo{
+      max-width: 25%;
+    }
+    .container.menu{
+      max-width: 75%;
+    }
+
+}
+@media(min-width:800px){
+    .social{
+        font-size:1.2rem;
+    }
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+
+
+    h2 {
+        font-size:2rem;
+    }
+
+    h3{
+        padding-top:1rem;
+    }
+}
+
+/* Esto es para las resoluciones con ancho minimo 500px - Celulares grandes*/
+@media(max-width:500px){
+    .container-fluid.fixed-top{
+        position: static;
+    }
+    .container.logo{
+      max-width: 50%;
+    }
+    .container.menu{
+      max-width: 50%;
+    }
+
+}
+
 @media(min-width:500px){
+    .contacto{
+        padding:1rem;
+        margin:1rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+    h3{
+        padding-top:2rem;
+    }
+}
+
+/* Esto es para las resoluciones con ancho minimo 360px - Celulares (iPhone/Samsung s9)*/
+@media(max-width:360px){
+    .container-fluid.fixed-top{
+        position: static;
+    }
+    .container.logo{
+      max-width: 50%;
+    }
+    .container.menu{
+      max-width: 50%;
+    }
+
+}
+
+@media(min-width:360px){
+
     .contacto{
         padding:1rem;
         margin:1rem;

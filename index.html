@@ -36,60 +36,57 @@
 </head>
 
 <body>
-	<header>
-        <!-- <div class="row"> -->
-						<!-- <div class="container-fluid"> -->
-            		<nav class="navbar navbar-expand-md navbar-dark .bg-barra fixed-top">
+	<!-- 	<header> -->
+	<div class="container-fluid fixed-top" style="padding-right:0; padding-left: 0;">
+		<nav class="navbar navbar-expand-md navbar-dark .bg-barra " id="headerNegro">
 
-										<div class="container" style="max-width: 25%;">
-                    	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" ></a>
-										</div>
+				<div class="container logo" >
+	      	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" ></a>
+				</div>
 
-                    <div class="container justify-content-end" style="max-width: 75%;">
+	      <div class="container menu justify-content-end" >
 
-												<button class="navbar-toggler" onclick="modificarEstadoNavbar()" type="button" > <!--data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
-														<span class="navbar-toggler-icon"></span>
-												</button>
-
+						<button class="navbar-toggler" onclick="modificarEstadoNavbar()" type="button" > <!--data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
+								<span class="navbar-toggler-icon"></span>
+						</button>
 
 
-												<div class="collapse navbar-collapse" id="navbarResponsive">
-														<ul class="navbar-nav ml-auto">
 
-																<!-- Home -->
-																<li class="nav-item">
-																		<a class="nav-link" href="#">Home</a>
-																</li>
+						<div class="collapse navbar-collapse" id="navbarResponsive">
+								<ul class="navbar-nav ml-auto">
 
-																<!-- Cameras -->
-																<li class="nav-item">
-																		<a class="nav-link" href="#Cameras">Cameras</a>
-																</li>
+										<!-- Home -->
+										<li class="nav-item">
+												<a class="nav-link" href="#">Home</a>
+										</li>
 
-																<!-- Accessories -->
-																<li class="nav-item">
-																		<a class="nav-link" href="#Accessories">Accessories</a>
-																</li>
+										<!-- Cameras -->
+										<li class="nav-item">
+												<a class="nav-link" href="#Cameras">Cameras</a>
+										</li>
 
-																<!-- APPS -->
-																<li class="nav-item">
-																		<a class="nav-link" href="#Apps">Apps</a>
-																</li>
+										<!-- Accessories -->
+										<li class="nav-item">
+												<a class="nav-link" href="#Accessories">Accessories</a>
+										</li>
 
-																<!-- GoPro Plus -->
-																<li class="nav-item">
-																		<a class="nav-link" href="#Gopro-Plus">Gopro Plus</a>
-																</li>
+										<!-- APPS -->
+										<li class="nav-item">
+												<a class="nav-link" href="#Apps">Apps</a>
+										</li>
+
+										<!-- GoPro Plus -->
+										<li class="nav-item">
+												<a class="nav-link" href="#Gopro-Plus">Gopro Plus</a>
+										</li>
 
 
-														</ul>
-												</div>
-										</div>
-								</nav>
-            <!-- </div> -->
-        <!-- </div> -->
-	</header>
-
+								</ul>
+						</div>
+				</div>
+		</nav>
+	</div>
+	<!-- </header> -->
 
 	<!-- carrusellllll -->
 	<article>
@@ -195,9 +192,6 @@
 		</section>
 	</article>
 	<!-- fin carrusel-->
-	<!--chau carrusel -->
-
-
 
 	<!--Cameras-->
 	<article class="Cameras">
@@ -225,7 +219,6 @@
 			</div>
 		</section>
 	</article>
-
 
 	<section id="Mercado" data-center="background-position: center 0px;"
            data-top-bottom="background-position: center -100px;">
@@ -305,6 +298,7 @@
 
 		</div>
 	</section>
+	<!-- fin Cameras-->
 
 	<!-- Accessories-->
 	<section id="Accessories" data-center="background-position: center 0px;"
@@ -400,9 +394,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
 	<div class="modal fade" id="b2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -424,8 +415,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<div class="modal fade" id="b3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -449,9 +438,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
 	<div class="modal fade" id="b4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -471,8 +457,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<div class="modal fade" id="b5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -497,9 +481,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
 	<div class="modal fade" id="b6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -535,8 +516,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!--fin de Accessories-->
 
 	<!--Appss-->
@@ -555,8 +534,8 @@
 
 		</section>
 	</article>
-
 	<!-- fin Appss-->
+
 	<!--Gopro-Plus-->
 	<article>
 	    <section id="Gopro-Plus">
@@ -565,25 +544,26 @@
            <h2 class="text-center display-1 text-white"ata-top="opacity:0;top:-100%;" data-center="opacity:1;top:0%;">Gopro-Plus</h2>
 
          <div class="fotorama">
-  <a href="https://www.youtube.com/watch?v=uA-EYpM4lGQ&feature=youtu.be">
-      <img src="Imag/04-wp-cuatro.jpg">
-  </a>
-  <a href="https://www.youtube.com/watch?v=US09ST27jJs">
-      <img src="Imag/03-wp-tres.jpg">
-  </a>
-  <a href="https://www.youtube.com/watch?v=yxamDPX1Lys">
-      <img src="Imag/01-wp-uno.jpg">
-  </a>
-  <a href="https://www.youtube.com/watch?v=miloJoLRGRM&t=26s">
-      <img src="Imag/vv2.jpg">
-  </a>
-</div>
+					  <a href="https://www.youtube.com/watch?v=uA-EYpM4lGQ&feature=youtu.be">
+					      <img src="Imag/04-wp-cuatro.jpg">
+					  </a>
+					  <a href="https://www.youtube.com/watch?v=US09ST27jJs">
+					      <img src="Imag/03-wp-tres.jpg">
+					  </a>
+					  <a href="https://www.youtube.com/watch?v=yxamDPX1Lys">
+					      <img src="Imag/01-wp-uno.jpg">
+					  </a>
+					  <a href="https://www.youtube.com/watch?v=miloJoLRGRM&t=26s">
+					      <img src="Imag/vv2.jpg">
+					  </a>
+					</div>
 
         </div>
 
 	    </section>
 	</article>
 	<!--fin de Gopro-Plus -->
+
 	<!--incio de conctacto-->
 	<article>
 		<section id="contacto"
@@ -647,8 +627,9 @@
 			<!--end container -->
 		</section>
 	</article>
+	<!-- fin de conctacto-->
 
-
+	<!--incio de footer-->
 	<footer>
 		<div class="foo">
 			<div class="row pt-4">
@@ -811,6 +792,10 @@
 
 		</div>
 	</footer>
+	<!-- fin de footer-->
+
+
+<!--	************* Inicio Scripts *************    -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<!-- do not forget download jquery (http://jquery.com/download/)-->
 	<script src="js/jquery-3.4.1.min.js"></script>
