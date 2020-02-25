@@ -142,9 +142,18 @@ navbar-expand-md .navbar-nav .nav-lin{
 	color: #0ade33;
 }
 
-.foo{
-	background-color: #95C11F;
-	padding:2rem;
+.footer{
+  color: beige;
+	background-color: #333333;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.socialItem{
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 
@@ -159,20 +168,25 @@ navbar-expand-md .navbar-nav .nav-lin{
 .social{
     font-size:2.2rem;
 }
+
+.SoloCelus{
+  display: none;
+}
+
 .fa-facebook{
-    color: rgba(31, 74, 216, 0.8);
+    color: white;
 }
 .fa-youtube{
-    color: #fd0a0a;
+    color: white;
 }
 .fa-twitter{
-    color: #00ffff;
+    color: white;
 }
 .fa-instagram{
-    color: #e2f500;
+    color: white;
 }
-.fa-linkedin{
-    color: #007af0;
+.fa-pinterest{
+    color: white;
 }
 
 h2 {
@@ -197,26 +211,14 @@ h3{
       max-width: 75%;
     }
 
+    .social{
+        font-size:2.2rem;
+    }
+    .SoloCelus{
+      display: none;
+    }
 }
 @media(min-width:1200px){
-    .social{
-        font-size:1.2rem;
-    }
-    .fa-facebook{
-        color: rgba(31, 74, 216, 0.8);
-    }
-    .fa-youtube{
-        color: #cb1818;
-    }
-    .fa-twitter{
-        color: #1ec7c7;
-    }
-    .fa-instagram{
-        color: blueviolet;
-    }
-    .fa-linkedin{
-        color: dodgerblue;
-    }
 
     h2 {
         font-size:2rem;
@@ -237,28 +239,14 @@ h3{
     .container.menu{
       max-width: 75%;
     }
-
+    .social{
+        font-size:2.2rem;
+    }
+    .SoloCelus{
+      display: none;
+    }
 }
 @media(min-width:800px){
-    .social{
-        font-size:1.2rem;
-    }
-    .fa-facebook{
-        color: rgba(31, 74, 216, 0.8);
-    }
-    .fa-youtube{
-        color: #cb1818;
-    }
-    .fa-twitter{
-        color: #1ec7c7;
-    }
-    .fa-instagram{
-        color: blueviolet;
-    }
-    .fa-linkedin{
-        color: dodgerblue;
-    }
-
 
     h2 {
         font-size:2rem;
@@ -280,13 +268,18 @@ h3{
     .container.menu{
       max-width: 50%;
     }
+    .social{
+        font-size:1.2rem;
+    }
+    .SoloCelus{
+      display: inherit;
+    }
 
 }
 
 @media(min-width:500px){
     .contacto{
         padding:1rem;
-        margin:1rem;
     }
     h2 {
         font-size:3rem;
@@ -307,6 +300,12 @@ h3{
     .container.menu{
       max-width: 50%;
     }
+    .social{
+        font-size:1.2rem;
+    }
+    .SoloCelus{
+      display: inherit;
+    }
 
 }
 
@@ -314,7 +313,6 @@ h3{
 
     .contacto{
         padding:1rem;
-        margin:1rem;
     }
     h2 {
         font-size:3rem;
